@@ -43,6 +43,20 @@ The interactive dashboard includes:
 - Python notebook: data cleaning, EDA, and process analysis
 - SQL folder: BigQuery analysis queries
 - Power BI file: interactive dashboard
+
+ ## Key Findings
+
+- The dataset contains 6,443 workflow events across 1,000 patient cases.
+- Doctor and Triage are among the most frequently recorded activities.
+- Emergency has a higher recorded event volume than Trauma in this synthetic dataset.
+- Interactive Power BI slicers allow users to explore activity patterns by department, activity type, and date range.
+
+## Business Recommendations
+
+- Monitor activity volumes across departments to understand workflow distribution.
+- Review patient-case activity sequences to identify patterns that may need further investigation.
+- Use date-range filters to compare activity trends across different periods.
+- Validate findings against real operational data before making hospital management decisions.
 - Dashboard screenshot: visual preview of the report
 
 ## Important Note
