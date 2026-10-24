@@ -57,7 +57,28 @@ The interactive dashboard includes:
 - Review patient-case activity sequences to identify patterns that may need further investigation.
 - Use date-range filters to compare activity trends across different periods.
 - Validate findings against real operational data before making hospital management decisions.
-- Dashboard screenshot: visual preview of the report
 
-## Important Note
+# CareFlow SQL Analysis
+
+## Objective
+Use SQL in Google BigQuery to explore synthetic hospital workflow event data and identify activity patterns.
+
+## Analysis Performed
+- Checked dataset records and data quality.
+- Analyzed event counts by hospital activity.
+- Examined patient-case activity sequences.
+- Explored transitions between consecutive activities.
+- Compared event volumes across departments.
+- Investigated repeated activities and workflow patterns.
+
+## Tools Used
+- Google BigQuery
+- SQL
+
+## Dataset
+The dataset contains 6,443 workflow events across 1,000 patient cases. It is synthetic practice data and does not represent real hospital operations.
+
+## Purpose
+The SQL analysis supports exploratory data analysis and provides insights for the CareFlow Power BI dashboard.
+
 This project uses synthetic practice data. Observed event counts and elapsed times should not be interpreted as validated real-world hospital performance or patient waiting times.
